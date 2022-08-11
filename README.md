@@ -1,2 +1,2 @@
 # devopsfororacle
-DevOps setup for Oracle Database using Liquibase and Jenkins 
+DevOps setup for Oracle Database using Liquibase and Jenkins Tools
