@@ -5,10 +5,9 @@ ADD (POSTAL_CODE CHAR(10) );
 -- rollback ALTER TABLE CUSTOMER_MASTER_DATA DROP COLUMN POSTAL_CODE;
 
 -- liquibase formatted sql
--- changeset csidevops:20220818-004
+-- changeset csidevops:20220818-004 rollbackSplitStatements:false
 INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'James', 'Anderson', '101 Grove Street', 'APT # 2', 'London', NULL, 'UK', 1234567890, 0123456789, 'NW1 4NP');
 INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'John', 'Krasinski', '101 Grove Street', 'APT # 2', 'Chennai', NULL, 'INDIA', 1234567890, 0123456789, '603103');
--- rollback rollbackSplitStatements:false 
 -- rollback BEGIN 
 -- rollback    EXECUTE IMMEDIATE 'DROP TABLE CUSTOMER_MASTER_DATA_BACKUP'; 
 -- rollback EXCEPTION 
