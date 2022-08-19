@@ -1,5 +1,5 @@
 -- liquibase formatted sql
--- changeset csidevops:20220819-005
+-- changeset csidevops:20220819-003
 BEGIN 
     EXECUTE IMMEDIATE 'DROP TABLE CUSTOMER_MASTER_DATA_BACKUP'; 
 EXCEPTION 
@@ -8,3 +8,4 @@ EXCEPTION
           RAISE; 
         END IF; 
 END;
+/
