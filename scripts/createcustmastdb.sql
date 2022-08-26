@@ -33,9 +33,9 @@
 
 -- liquibase formatted sql
 -- changeset csidevops:20220818-002
-INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'James', 'Anderson', '101 Grove Street', 'APT # 2', 'Jersey City', 07306, 'USA', 1234567890, 0123456789);
-INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'John', 'Krasinski', '101 Grove Street', 'APT # 2', 'Jersey City', 07306, 'USA', 1234567890, 0123456789);
-INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Mary', 'Austin', '101 Grove Street', 'APT # 2', 'Jersey City', 07306, 'USA', 1234567890, 0123456789);
-INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Patricia', 'Heaton', '101 Grove Street', 'APT # 2', 'Jersey City', 07306, 'USA', 1234567890, 0123456789);
-INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Amit', 'Singh', '101 Grove Street', 'APT # 2', 'Jersey City', 07306, 'USA', 1234567890, 0123456789);
+INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'James', 'Anderson', '13th Street', 'APT # 2', 'New York', 10011, 'USA', 1234567890, 0123456789);
+INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'John', 'Krasinski', '7320 Baltimore Avenue', 'APT # 5', 'Baltimore', 21201, 'USA', 6789012345, 3456012789);
+INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Mary', 'Austin', '101 Grove Street', 'APT # 2', 'Rockville', 20850, 'USA', 1237845690, 3456789012);
+INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Patricia', 'Heaton', '8401 Lou Dillon', 'APT # 1', 'Los Angeles', 90003, 'USA', 8901234567, 1230456789);
+INSERT INTO CUSTOMER_MASTER_DATA VALUES(DB_SEQUENCE.nextval, 'Amit', 'Singh', '2 Parkesgate Drive', 'APT # 5', 'Houston', 33038, 'USA', 7812369045, 6780123945);
 -- rollback DELETE FROM CUSTOMER_MASTER_DATA;
