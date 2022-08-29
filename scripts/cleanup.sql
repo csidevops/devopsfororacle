@@ -9,3 +9,4 @@ EXCEPTION
         END IF; 
 END;
 /
+-- rollback select * from customer_master_data;
