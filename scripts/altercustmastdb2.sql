@@ -1,4 +1,4 @@
--- liquibase formatted sql
+-- liquibase formatted sql 
 -- changeset csidevops:20220819-006
 DELETE FROM CUSTOMER_MASTER_DATA;
 ALTER TABLE CUSTOMER_MASTER_DATA  
